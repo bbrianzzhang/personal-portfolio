@@ -20,7 +20,7 @@ export default function Home() {
           <Image alt="Picture of Brian Zhang" src={KimchiRamen} className="h-48 w-48 rounded-full object-cover object-top"/>
           <h3 className='pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight'>Brian Zhang</h3>
           <p className="text-gray-500 dark:text-gray-300 text-center">
-            My name is Brian.
+            My name is Brian. This is my favorite instant ramen, Samyang Kimchi Ramen.
           </p>
           <div className='flex space-x-5 pt-6'>
             <a href="https://github.com/bbrianzzhang" target="_blank">
@@ -52,11 +52,11 @@ export default function Home() {
         </div>
 
         <div className='prose max-w-none prose-lg pt-8 pb-8 dark:prose-invert xl:col-span-2'>
-          <p>
+          <p>Hi! My name is Brian Zhang, and I am a third-year computer science student at the University of Waterloo. I'm currently looking for opportunities to work in machine learning and full-stack development. My goal as a programmer is to make a difference and continue learning and developing my skills. 
           </p>
-          <p>
+          <p>In my previous internships, I've worked at a startup that created websites for clients and also maintained an AI chatbot for car dealerships. I also interned at a health and research lab, creating a machine learning model for detecting pain and helping users through physiotherapy exercises.
           </p>
-          <p>
+          <p>In my spare time, I enjoy playing chess and TFT, reading about mythology and trying different types of instant ramen. 
           </p>
 
         </div>
