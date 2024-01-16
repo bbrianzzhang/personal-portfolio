@@ -1,6 +1,8 @@
 import { revalidatePath } from "next/cache";
 import Form from "../components/form";
 import { prisma } from "../db";
+import Head from "next/head";
+import { Metadata } from "next";
 
 async function getEntries () {
     const data = await prisma.guestbook.findMany({
@@ -14,6 +16,10 @@ async function getEntries () {
 }
 
 export const revalidate = 60;
+
+export const metadata: Metadata = {
+    title: 'Brian Zhang - Guestbook',
+  }
 
 export default async function Guestbook() {
     const data = await getEntries();
