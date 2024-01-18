@@ -52,9 +52,9 @@ export default function Home() {
         </div>
 
         <div className='prose max-w-none prose-lg pt-8 pb-8 dark:prose-invert xl:col-span-2'>
-          <p>Hi! My name is Brian Zhang, and I am a third-year computer science student at the University of Waterloo. I'm currently looking for opportunities to work in machine learning and full-stack development. My goal as a programmer is to make a difference and continue learning and developing my skills. 
+          <p>Hi! My name is Brian Zhang, and I am a third-year computer science student at the University of Waterloo. I&apos;m currently looking for opportunities to work in machine learning and full-stack development. My goal as a programmer is to make a difference and continue learning and developing my skills. 
           </p>
-          <p>In my previous internships, I've worked at a startup that created websites for clients and also maintained an AI chatbot for car dealerships. I also interned at a health and research lab, creating a machine learning model for detecting pain and helping users through physiotherapy exercises.
+          <p>In my previous internships, I&apos;ve worked at a startup that created websites for clients and also maintained an AI chatbot for car dealerships. I also interned at a health and research lab, creating a machine learning model for detecting pain and helping users through physiotherapy exercises.
           </p>
           <p>In my spare time, I enjoy playing chess and TFT, reading about mythology and trying different types of instant ramen. 
           </p>
