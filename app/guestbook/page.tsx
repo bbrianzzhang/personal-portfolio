@@ -22,6 +22,8 @@ export const metadata: Metadata = {
   }
 
 export default async function Guestbook() {
+    console.log(process.env.MONGODB_URI);
+
     const data = await getEntries();
     return (
         <div className="divide-y divide-gray-200 dark:divide-gray-700">

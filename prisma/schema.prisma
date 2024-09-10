@@ -3,14 +3,14 @@ generator client {
 }
 
 datasource db {
-  provider = "mysql"
-  url = env("DATABASE_URL")
+  provider = "mongodb"
+  url = env("MONGODB_URI")
   relationMode = "prisma"
 }
 
 model Guestbook {
-  id String @id @default(uuid())
+  id String @id @default(auto()) @map("_id") @db.ObjectId
   message String
-  username String
+  username String @unique
   created_at DateTime @default(now())
 } 

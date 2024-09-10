@@ -34,7 +34,8 @@ export const metadata: Metadata = {
 
 export default async function Projects() {
   const data: Data[] = await getProjects();
-  
+  console.log(process.env.MONGODB_URI);
+
   return (
     <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
