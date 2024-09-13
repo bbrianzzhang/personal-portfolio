@@ -19,7 +19,7 @@ export default function Form () {
         style={{opacity: pending ? 0.7 : 1}}>
             <input type="text" placeholder="Your message..." name="entry" required disabled={pending}
             className="pl-4 pr-32 mt-1 focus:ring-teal-500 focus:border-teal-500 block w-full border-neutral-300 rounded-md bg-gray-100 dark:bg-neutral-800 text-neutral-900 dark:text-neutral-100"/>
-            <button type="submit" disabled={pending} className="flex items-center justify-center absolute right-2 mt-1 font-medium h-7 bg-teal-500/30 text-neutral-900 dark:text-neutral:100 rounded w-16">
+            <button type="submit" disabled={pending} className="flex items-center justify-center absolute right-2 mt-1 font-medium h-7 bg-teal-500/30 dark:bg-teal-500 text-neutral-900 dark:text-neutral-800 rounded w-16">
                 Submit
             </button>
         </form>
