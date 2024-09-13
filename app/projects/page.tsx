@@ -34,7 +34,6 @@ export const metadata: Metadata = {
 
 export default async function Projects() {
   const data: Data[] = await getProjects();
-  console.log(process.env.MONGODB_URI);
 
   return (
     <div className="divide-y divide-gray-200 dark:divide-gray-700">
@@ -55,7 +54,7 @@ export default async function Projects() {
                     fill
                     src={project.imageUrl}
                     alt="Project card"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover bg-white"
                 />
                 </div>
 
