@@ -57,7 +57,7 @@ export default function Home() {
           <p>In the summer of 2024, I got the opportunity to intern at PlayStation! I learned a lot about web development, deployment pipelines and much more, all while getting to work at a company that inspired so much of my childhood. I&apos;m returning for a second term in January 2025 and I hope to learn even more new things and meet more new people.</p>
           <p>In my previous internships, I&apos;ve worked at a startup that created websites for clients and also maintained an AI chatbot for car dealerships. I also interned at a health and research lab, creating a machine learning model for detecting pain and helping users through physiotherapy exercises.
           </p>
-          <p>In my spare time, I enjoy playing chess and TFT, reading about mythology and trying different types of instant ramen. I&apos;m also currently on exchange in Hong Kong so I like just walking around and exploring the city, especially at night (mostly to avoid the heat).
+          <p>In my spare time, I enjoy playing chess and TFT, reading about mythology and trying different types of instant ramen.
           </p>
 
         </div>
