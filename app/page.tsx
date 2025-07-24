@@ -1,5 +1,6 @@
 import Image from 'next/image'
-import KimchiRamen from "@/public/kimchi ramen.jpg"
+import KimchiRamen from "@/public/kimchi_ramen.jpg"
+import ProfilePhoto from "@/public/profile_photo.jpg"
 import Head from 'next/head'
 import { Metadata } from 'next'
 
@@ -17,11 +18,12 @@ export default function Home() {
       </div>
       <div className='items-center space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0'>
         <div className='flex flex-col items-center pt-8'>
-          <Image alt="Picture of Brian Zhang" src={KimchiRamen} className="h-48 w-48 rounded-full object-cover object-top"/>
+          <Image alt="Picture of Brian Zhang" src={ProfilePhoto} className="h-48 w-48 rounded-full object-cover object-top"/>
           <h3 className='pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight'>Brian Zhang</h3>
           <p className="text-gray-500 dark:text-gray-300 text-center">
             My name is Brian. This is my favorite instant ramen, Samyang Kimchi Ramen.
           </p>
+          <Image alt="Picture of kimchi ramen" src={KimchiRamen} className="h-48 w-48 mt-2 rounded-full object-cover object-top"/>
           <div className='flex space-x-5 pt-6'>
             <a href="https://github.com/bbrianzzhang" target="_blank">
             <svg viewBox="0 0 1024 1024" fill="currentColor" className='w-8 h-8 text-teal-500 hover:text-teal-600'>
@@ -52,9 +54,10 @@ export default function Home() {
         </div>
 
         <div className='prose max-w-none prose-lg pt-8 pb-8 dark:prose-invert xl:col-span-2'>
-          <p>Hi! My name is Brian Zhang, and I am a third-year computer science student at the University of Waterloo. I&apos;m currently looking for opportunities to work in software engineering, particularly AI and full-stack development. My goal as a programmer is to make a difference and continue learning and developing my skills. 
+          <p>Hi! My name is Brian Zhang, and I am a fourth-year computer science student at the University of Waterloo. I&apos;m currently looking for opportunities to work in software engineering, particularly AI and full-stack development. My goal as a programmer is to make a difference and continue learning and developing my skills. 
           </p>
-          <p>In the summer of 2024, I got the opportunity to intern at PlayStation! I learned a lot about web development, deployment pipelines and much more, all while getting to work at a company that inspired so much of my childhood. I&apos;m returning for a second term in January 2025 and I hope to learn even more new things and meet more new people.</p>
+          <p>Currently, I'm interning at Kikoff Inc., a startup in San Francisco that helps users build their credit scores. Working at a startup has helped me develop a strong sense of consumer sympathy, looking at things from the customer's point of view. I also got to strengthen my skills in app development and backend work, making me a more well-rounded fullstack developer.</p>
+          <p>During summer 2024 and winter 2025, I got the opportunity to intern at PlayStation. I learned a lot about web development, deployment pipelines and much more, all while getting to work at a company that inspired so much of my childhood. This experience also helped me strengthen my collaboration skills, both within my team and in between the many interconnected development teams at Sony.</p>
           <p>In my previous internships, I&apos;ve worked at a startup that created websites for clients and also maintained an AI chatbot for car dealerships. I also interned at a health and research lab, creating a machine learning model for detecting pain and helping users through physiotherapy exercises.
           </p>
           <p>In my spare time, I enjoy playing chess and TFT, reading about mythology and trying different types of instant ramen.
